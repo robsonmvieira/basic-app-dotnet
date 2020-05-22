@@ -5,9 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Mapping\" />
-    <Folder Include="Context\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.EntityframeworkCore" Version="3.1.4" />
+    <PackageReference Include="microsoft.EntityframeworkCore.Relational" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Store.Business\Store.Business.csproj" />
   </ItemGroup>
 
 </Project>

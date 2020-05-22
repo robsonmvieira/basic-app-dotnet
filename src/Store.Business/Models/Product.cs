@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Store.Business.Models
 {
-    class Product : Entity
+    public class Product : Entity
     {
         public  Guid SupplierId { get; set; }
 
