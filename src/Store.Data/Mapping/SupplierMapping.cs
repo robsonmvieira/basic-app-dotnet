@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Store.Data.Mapping
 {
-    class SupplierMapping : IEntityTypeConfiguration<Supplier>
+    public class SupplierMapping : IEntityTypeConfiguration<Supplier>
     {
         public void Configure(EntityTypeBuilder<Supplier> builder)
         {
